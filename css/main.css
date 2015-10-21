@@ -1,3 +1,9 @@
+/*
+*
+Common
+*
+*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -14,6 +20,13 @@ body{
     display: table;
     clear: both;
 }
+
+/*
+*
+Header
+*
+*/
+
 .header { 
     width: 450px;
     padding: 10px 0;
@@ -29,6 +42,13 @@ body{
     padding-left: 5px;
     background-color: #c0392b;
 }
+
+/*
+*
+Navigation
+*
+*/
+
 .menu-row-column {
     width: 395px;
     min-height: 30px;
@@ -36,6 +56,13 @@ body{
     padding-left: 55px;
     background-color: #3498DB;
 }
+
+/*
+*
+News-content
+*
+*/
+
 .news-section {
     width: 450px;
     padding: 10px 0;
@@ -56,6 +83,13 @@ body{
     margin-left: 0;
     margin-left: 10px;
 }
+
+/*
+*
+Main
+*
+*/
+
 .main {
     width: 450px;
     padding: 10px 0;
@@ -89,6 +123,12 @@ body{
     padding-left: 5px;
     background-color: #3498db; 
 }
+/*
+*
+Footer
+*
+*/
+
 .footer {
     width: 450px;
     min-height: 30px;
@@ -101,7 +141,7 @@ body{
 }
 
 /*
-    Используемые цвета:
+    Colors:
     #34495e - мокрый асфальт
     #c0392b - красный
     #3498DB - синий
