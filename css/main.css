@@ -1,0 +1,108 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 450px;
+    height: 335px;
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+.header { 
+    width: 450px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: #34495e;
+}
+.header-row-column {
+    width: 345px;
+    min-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #c0392b;
+}
+.menu-row-column {
+    width: 395px;
+    min-height: 30px;
+    padding-top: 5px;
+    padding-left: 55px;
+    background-color: #3498DB;
+}
+.news-section {
+    width: 450px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: #34495e;
+    
+}
+.news-row-left {
+    width: 165px;
+    min-height: 55px;
+    float: left;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #c0392b;
+}
+.news-row-left:last-child {
+    margin-left: 0;
+    margin-left: 10px;
+}
+.main{
+    width: 450px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.content-left {
+    width: 65px;
+    min-height: 105px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #3498db;  
+}
+.content-main {
+    width: 185px;
+    min-height: 105px;
+    float: left; 
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #3498db; 
+}
+.content-right {
+    width: 65px;
+    min-height: 105px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #3498db; 
+}
+.footer {
+    width: 450px;
+    min-height: 30px;
+    margin: 0 auto;
+    padding: 5px 0;
+    background-color: #34495e;
+}
+.footer-text {
+    padding-left: 55px;   
+}
+
+/*
+    Используемые цвета:
+    #34495e - мокрый асфальт
+    #c0392b - красный
+    #3498DB - синий
+*/
